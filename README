@@ -1,0 +1,7 @@
+ Many people have asked me recently how I would go about creating a regression testing suite for the javascript of a site that does not necessarily use a Rails back-end. This is a space to hold a few of my rough drafts in that direction putting my knowledge of this area together.
+
+Some of the main points I want to be able to cover are:
+1. Maintanability and Ease of use
+2. Cross Browser testing without the need to duplicate the tests for each browser
+3. Ability to test in IE, Firefox, Safari and Chrome at a minimum. NOTE: This may mean that the tests may need to run accross multiple machines
+4. Hooks to set up fixtures etc. Because of the lack of tight coupling with the back-end AKA Rails and cucumber/rspec. This will need to happen on a project to project basis
